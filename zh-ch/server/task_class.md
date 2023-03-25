@@ -24,7 +24,7 @@ Swoole\Server\Task->dispatch_time
 ```
 
 ### $id
-返回该数据到达`task`进程的时间`dispatch_time`，该属性是一个`int`类型的整数。
+返回该数据到达`task`进程的`id`，该属性是一个`int`类型的整数。
 
 ```php
 Swoole\Server\Task->id
